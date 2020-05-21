@@ -6,4 +6,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "mkrakowitzer/actions-makepdfs:${TAG:-latest}"
+    image: "fribbledom/actions-makepdfs:${TAG:-latest}"
